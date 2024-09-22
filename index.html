@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap icons cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header>
+    <nav class="pepsi-navbar">
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <div class="hamburger-menu">
+        <input type="checkbox" name="" id="toggle-menu" class="check">
+        <label for="toggle-menu"></label>
+        <div class="menu">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </div>
+
+        <ul class="items">
+          <li class="item item-image"><img src="./images/logo.png" alt=""></li>
+          <li class="item">LOG IN / REGISTER</li>
+          <li class="item">BUY PEPSI</li>
+          <li class="item">RECIPES</li>
+          <li class="item">VIEW PRODUCTS</li>
+          <li class="item">CONTACT US</li>
+          <li class="item item-social">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-tiktok"></i>
+            <i class="bi bi-threads"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- main section -->
+  <main class="main">
+    <!-- hero section -->
+    <section class="hero-section ">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-lg-4   hero-left ">
+            <div class="can-anim">
+              <!-- <img src="./images/pepsi-pulse-logo.gif" alt=""> -->
+            </div>
+            <img src="./images/can-2.webp" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8  hero-right">
+            <h2 class="h1 ">WELCOME</h2>
+            <h2 class="h2 ">LET’S GET STARTED</h2>
+            <h3 class="h4 ">CHECK OUT THE LATEST DROP</h3>
+            <a href="#iframe" class="downarrow">
+              <i class="bi bi-caret-down-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- youtube video section -->
+    <section id="iframe" class=" video-section">
+
+      <iframe class="iframe" src="https://www.youtube.com/embed/TJ76stF5mmU" title="Make Your Gameday Epic :60"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <span class="button video-btn">Make Yourself a gladiator</span>
+    </section>
+    <!-- carasaul section -->
+    <section class="container-fluid slider-section">
+      
+        <div class="  slider-left">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/pepsi-prizing-glass.jpg" class="" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/pepsi-prizing-necklace.jpg" class="" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/pepsi-prizing-pennent.jpg" class="" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class=" slider-right">
+          <h3 class="h2">Score big with</h3>
+          <h2 class="h1">Pepsi</h2>
+          <h2 class="h1 drops">drops</h2>
+          <p class="discription"><span>Scan a PEPSI Logo</span> and enter the stadium for your chance to Rule with the <span>PEPSI Gladiator</span>  collection. <sup>*</sup></p>
+          <button class="btn">sign in to Enter</button>
+          <p class="discription bottom-discripton">US res, 18+(19+ AL/NE). End 10/17/24.Limit one entry per person/email address per day.Subject to all Official Rules. <sup>*</sup>Actual prize may vary what's shown.</p>
+        </div>
+     
+    </section>
+    <!-- youtube video section -->
+    <section class=" video-section w-100 h-100">
+
+      <video class="video" src="./videos/pepsi-cans.mp4" autoplay muted
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></video>
+
+      <span class="button video-btn">VIEW PRODUCTS</span>
+    </section>
+    <!-- youtube video section -->
+    <section class=" video-section w-100 h-100">
+
+      <video class="video" src="./videos/v4.mp4" autoplay muted
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></video>
+      <!-- <div class="logo-image">
+        <img src="./images/logo.png" class="" alt="">
+      </div> -->
+      <span class="button video-btn">VIEW RACIPES</span>
+    </section>
+     <!-- carasaul section -->
+      <section class="container-fluid bottom-slider">
+        <div class="row gap-2">
+          <div class="col-12 slider-top ">
+            <div class="image">
+              <img src="./images/logo.png" alt="">
+            </div>
+            <h2 class="h1">STAY ON THE</h2>
+            <h2 class="h1 pulse">PULSE</h2>
+          </div>
+          <div class="col-12 slider-bottom">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/pepsi-3.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-2.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-1.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item ">
+                  <img src="./images/pepsi-4.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-5.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-6.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-7.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/pepsi-8.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/5.jpg" class="" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- <section class="container-fluid slider-section">
+      <div class="row">
+        <div class="col-12 slider-left">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/pepsi-prizing-glass.jpg" class="" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/pepsi-prizing-necklace.jpg" class="" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/pepsi-prizing-pennent.jpg" class="" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-12 slider-right">
+          <h3 class="h2">Score big with</h3>
+          <h2 class="h1">Pepsi</h2>
+          <h2 class="h1 drops">drops</h2>
+          <p class="discription"><span>Scan a PEPSI Logo</span> and enter the stadium for your chance to Rule with the <span>PEPSI Gladiator</span>  collection. <sup>*</sup></p>
+          <button class="btn">sign in to Enter</button>
+          <p class="discription bottom-discripton">US res, 18+(19+ AL/NE). End 10/17/24.Limit one entry per person/email address per day.Subject to all Official Rules. <sup>*</sup>Actual prize may vary what's shown.</p>
+        </div>
+      </div>
+    </section> -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row  gap-3 ">
+          <div class="col-lg-2 ">
+            <div class="logo"></div>
+          </div>
+          <div class="col-lg-2 ">
+            <ul class="footer-items">
+              <li class="footer-item">CONTACT US</li>
+              <li class="footer-item">TERMS & CONDITIONS</li>
+              <li class="footer-item">PRIVACY POLICY</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ">
+            <ul class="footer-items">
+              <li class="footer-item">COPYRIGHT</li>
+              <li class="footer-item">PRODUCT FACTS</li>
+              <li class="footer-item">STORE LOCATOR</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ">
+            <ul class="footer-items">
+              <li class="footer-item">SERVE PEPSI</li>
+              <li class="footer-item">ABOUT OUR ADS</li>
+              <li class="footer-item">CAREERS</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 footer-right">
+            <li class="item item-social footer-social-icon">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-tiktok"></i>
+              <i class="bi bi-threads"></i>
+            </li>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </main>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
