@@ -537,10 +537,30 @@ body {
   .footer-right .footer-social-icon {
     background-color: #0025FF;
     width: 100%;
+    padding: 2rem;
   }
+  .footer::after {
+    content: "COOKIES PREFERENCES";
+    position: absolute;
+    width: fit-content;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 20px;
+}
 }
 
 @media screen and (max-width :764px) {
+   .hamburger-menu ul{
+    padding: 2rem;
+    width: auto;
+    height: auto;
+  }
+  .item-image {
+    height: 5rem;
+  }
+  li.item{
+    font-size: 1.8rem;
+  }
   .hero-right .h1 {
     font-size: 4.5rem;
   }
@@ -581,6 +601,13 @@ body {
   .slider-bottom .carousel-inner{
     min-width: 300px;
     min-height: 300px;
+  }
+  .slider-right .btn {
+    width: fit-content;
+    font-size: 1.1rem;
+  }
+  .footer::after{
+    font-size: .5rem;
   }
 }
 /* @media screen and (max-width :375px) {
