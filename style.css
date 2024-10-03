@@ -610,9 +610,3 @@ body {
     font-size: .5rem;
   }
 }
-/* @media screen and (max-width :375px) {
-  .slider-bottom .carousel-inner{
-    min-width: 175px;
-    min-height: 175px;
-  }
-} */
