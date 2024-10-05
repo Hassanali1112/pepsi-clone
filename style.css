@@ -315,7 +315,6 @@ body {
   height: 350px;
   display: flex;
   gap: 2rem;
-  /* box-shadow: 1px 1px 1px 400px rgba(0, 0, 0, 0.577); */
 }
 
 .carousel-item {
